@@ -1,0 +1,22 @@
+1.
+Finn Wolfhard
+Sadie Sink
+{canal: 'HBO Max', horario: '18h'}
+
+2.
+Carlos
+carro.modelo
+
+3.
+8 e 6
+calculador.somar(7,2)
+
+dividir: function(a, b) {
+    return a / b;
+  }
+
+multiplicar: function(a, b) {
+    return a * b;
+  }
+
+para retornar um valor para "o código principal", fora da função
