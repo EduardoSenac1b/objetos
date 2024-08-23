@@ -1,19 +1,15 @@
-function Pessoa(nome, idade, profissao) {
-    nome = nome;
-    idade = idade;
-    profissao = profissao;
+function obterInformacoes() {
+    const nome = prompt("Qual é o seu nome?");
+    const idade = prompt("Qual é a sua idade?");
+    const profissao = prompt("Qual é a sua profissão?");
+
+    const usuario = {
+        nome: nome,
+        idade: idade,
+        profissao: profissao
+    };
+    
+    console.log(usuario);
 }
-  
-function coletarDados() {
-    const nome = prompt("Qual o seu nome?");
-    const idade = prompt("Qual a sua idade?");
-    const profissao = prompt("Qual a sua profissão?");
-  
-    return new Pessoa(nome, idade, profissao);
-}
-  
-const pessoa = coletarDados();
-  
-console.log(`Nome: ${pessoa.obterDados().nome}`);
-console.log(`Idade: ${pessoa.obterDados().idade}`);
-console.log(`Profissão: ${pessoa.obterDados().profissao}`);
+
+obterInformacoes();
